@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #1F2937;
+    padding: 20px 220px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo, .call-to-action .left strong {
+    font-size: 22px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero .left .secondary-text {
+    flex-wrap: wrap;
+    width: 450px;
+    padding-bottom: 8px;
+}
+
+button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 128px;
+    padding: 8px 0;
+    border: 0;
+}
+
+.hero .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.image {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+/* INFORMATION */
+main {
+    padding: 50px 240px;
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 160px;
+}
+
+.square {
+    border: 5px solid #3882F6;
+    height: 160px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+/* QUOTE */
+.quote {
+    padding: 128px 320px;
+    background-color: #E5E7EB;
+}
+
+em {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+    padding-right: 40px;
+}
+
+/* CALL TO ACTION */
+.call-to-action {
+    margin: 100px 200px;
+    padding: 48px 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action .right button {
+    border: 2px solid #F9FAF8;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1F2937;
+    padding: 48px;
+    text-align: center;
+}
